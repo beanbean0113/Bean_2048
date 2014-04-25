@@ -326,7 +326,8 @@ hr {
     background: url("../tile-set/8.jpg"); }
     @media screen and (max-width: 520px) {
       .tile.tile-8 .tile-inner {
-        background-image: url("../tile-set/8.jpg");width:58px;height:58px;
+        background: url("../tile-set/8.jpg");
+        background-size:58px;
         font-size: 0px; } }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
